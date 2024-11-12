@@ -1,0 +1,124 @@
+/* Global styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    position: relative;
+    background-image: url(img/nct.jpg);
+}
+/* Video background container */
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#bgVideo {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+}
+
+/* Header styling */
+.header {
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #007bff;
+   /* Optional border */
+}
+
+.college-logo {
+    width: 50px; /* Adjust size as needed */
+    margin-right: 15px;
+}
+
+/* Main content styling */
+.main-content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styling */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+   background:radial-gradient(circle, rgba(79, 87, 200, 0.485) 22%, rgba(0,0,0,0.39539565826330536) 49%, rgba(0,212,255,0) 100%)!important;
+}
+.footer{
+    position:relative;
+    background-color:  #007bff;
+}
+
+.footer .social-link img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.header {
+    padding: 1rem 2rem;
+}
+
+.logo-container {
+    flex-basis: 20%;
+}
+
+.header-center {
+    flex-basis: 60%;
+    text-align: center;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    flex-basis: 20%;
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    margin-right: 1rem;
+}
+.one{
+ background-color: transparent;   
+}
+body header{
+    color: black;
+}
